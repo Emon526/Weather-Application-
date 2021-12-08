@@ -67,6 +67,7 @@
                     android:background="@android:color/transparent"
                     android:importantForAutofill="no"
                     android:inputType="text"
+                    android:textAllCaps="true"
                     android:singleLine="true"
                     android:textColor="@color/white"
                     android:textSize="14sp" />
@@ -99,8 +100,9 @@
 
         <ImageView
             android:id="@+id/idIVIcon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_below="@+id/idTVTemperature"
             android:layout_centerHorizontal="true"
             android:src="@mipmap/ic_launcher" />
@@ -110,7 +112,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/idIVIcon"
-            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
             android:gravity="center"
             android:text="Condition"
             android:textAlignment="center"
